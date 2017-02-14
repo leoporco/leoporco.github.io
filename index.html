@@ -66,7 +66,19 @@
                     <section>
                         <h3>Check out my Current GitHub Project</h3>
                         <h4>Voice Bot</h4>
-                        <a href="https://github.com/leoporco/voicebot"><img src="img/git.png" alt=""/></a>
+                        <a href="https://github.com/leoporco/voicebot"><img id ="logo" src="img/git.png" alt=""/></a>
+						<script>
+						var img = document.getElementById("logo")
+						
+						img.onmouseenter = function(){
+							this.src = "img/git_hover.png";
+						};
+						img.onmouseleave = function(){
+							this.src = "img/git.png";
+						};
+						
+						</script>
+						
                         
                     </section>
                 </article>
