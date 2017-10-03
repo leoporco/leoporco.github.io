@@ -1,5 +1,13 @@
 /*! HTML5 Boilerplate v5.0 | MIT License | http://h5bp.com/ */
-
+*{
+    font-family:Courier New, Courier, monospace;
+}
+.header-container,
+.main aside {
+    -webkit-box-shadow: 0 5px 10px lightslategrey;
+       -moz-box-shadow: 0 5px 10px lightslategrey;
+            box-shadow: 0 5px 10px lightslategrey;
+}
 html {
     color: #222;
     font-size: 1em;
@@ -158,7 +166,9 @@ nav a:hover {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-
+article{
+    padding-left: 2%;
+}
 
 body{
     color:white;
@@ -194,7 +204,7 @@ body{
 /* ====================
     INTERMEDIATE: Menu
    ==================== */
-
+    
     nav a {
         float: left;
         width: 27%;
@@ -229,6 +239,9 @@ body{
 /* ====================
     WIDE: CSS3 Effects
    ==================== */
+   .title{
+       padding-left: 5%;
+   }
 
     .header-container,
     .main aside {
@@ -240,10 +253,6 @@ body{
 /* ============
     WIDE: Menu
    ============ */
-
-    .title {
-    }
-
     nav {
         float: right;
         width: 38%;
